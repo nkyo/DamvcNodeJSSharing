@@ -4,10 +4,7 @@
   "description": "YouTransfer, the self-hosted file transfer solution",
   "author": "Collabsoft",
   "contributors": [
-    {
-      "name": "Remie Bolte",
-      "email": "info@youtransfer.io"
-    }
+    "Remie Bolte <info@youtransfer.io>"
   ],
   "main": "app.js",
   "scripts": {
@@ -50,7 +47,7 @@
     "nconf": "^0.8.5",
     "node-cache": "^4.1.1",
     "node-schedule": "^1.2.5",
-    "nodemailer": "^4.3.1",
+    "nodemailer": "^4.7.0",
     "nodemailer-sendmail-transport": "^1.0.2",
     "nodemailer-ses-transport": "^1.5.1",
     "nodemailer-smtp-transport": "^2.7.4",
@@ -103,5 +100,12 @@
     "wdio-spec-reporter": "^0.1.2",
     "webdriverio": "^4.1.1"
   },
-  "bin": "./bin/youtransfer"
+  "bin": {
+    "youtransfer": "bin/youtransfer"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "keywords": []
 }

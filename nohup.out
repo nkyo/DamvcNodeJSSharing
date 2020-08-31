@@ -1,0 +1,100 @@
+
+> youtransfer@1.1.0 start /root/DamvcNodeJSSharing
+> gulp clean && gulp dist && node app.js
+
+[04:26:41] Using gulpfile ~/DamvcNodeJSSharing/gulpfile.js
+[04:26:41] Starting 'cleanTask'...
+[04:26:41] Finished 'cleanTask' after 70 ms
+[04:26:41] Starting 'clean'...
+[04:26:41] Finished 'clean' after 22 μs
+[04:26:42] Using gulpfile ~/DamvcNodeJSSharing/gulpfile.js
+[04:26:42] Starting 'browserifyAppTask'...
+[04:26:42] Starting 'browserifyVendorTask'...
+[04:26:42] Starting 'copyStaticTask'...
+[04:26:42] Starting 'lessTask'...
+[04:26:44] Finished 'lessTask' after 2.1 s
+[04:26:46] Finished 'browserifyVendorTask' after 4.59 s
+[04:26:47] Finished 'browserifyAppTask' after 4.75 s
+[04:26:47] Finished 'copyStaticTask' after 4.75 s
+[04:26:47] Starting 'build'...
+[04:26:47] Finished 'build' after 39 μs
+[04:26:47] Starting 'dist'...
+[04:26:47] Finished 'dist' after 3.15 μs
+restify listening at http://[::]:5000
+[90m04:30:17.477Z[39m [32m INFO[39m youtransfer: [36mDisabled cleanup schedule[39m
+[90m04:30:44.798Z[39m [32m INFO[39m youtransfer: [36mDisabled cleanup schedule[39m
+[90m04:30:57.300Z[39m [32m INFO[39m youtransfer: [36mDisabled cleanup schedule[39m
+[90m04:33:44.872Z[39m [32m INFO[39m youtransfer: [36mDisabled cleanup schedule[39m
+/root/DamvcNodeJSSharing/node_modules/nodemailer/lib/mailer/index.js:45
+        this.transporter.mailer = this;
+                                ^
+
+TypeError: Cannot set property 'mailer' of undefined
+    at new Mail (/root/DamvcNodeJSSharing/node_modules/nodemailer/lib/mailer/index.js:45:33)
+    at Object.module.exports.createTransport (/root/DamvcNodeJSSharing/node_modules/nodemailer/lib/nodemailer.js:52:14)
+    at /root/DamvcNodeJSSharing/lib/youtransfer.js:83:34
+    at /root/DamvcNodeJSSharing/lib/settings.js:93:4
+    at NodeCache.module.exports.NodeCache.get (/root/DamvcNodeJSSharing/node_modules/node-cache/lib/node_cache.js:101:11)
+    at NodeCache.get (/root/DamvcNodeJSSharing/node_modules/node-cache/lib/node_cache.js:12:59)
+    at Settings.get (/root/DamvcNodeJSSharing/lib/settings.js:65:13)
+    at Object.get (/root/DamvcNodeJSSharing/lib/youtransfer.js:82:18)
+    at /root/DamvcNodeJSSharing/lib/youtransfer.js:284:28
+    at /root/DamvcNodeJSSharing/node_modules/nunjucks/src/environment.js:23:23
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! youtransfer@1.1.0 start: `gulp clean && gulp dist && node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the youtransfer@1.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2020-08-31T04_33_57_378Z-debug.log
+
+> youtransfer@1.1.0 start /root/DamvcNodeJSSharing
+> gulp clean && gulp dist && node app.js
+
+[04:34:57] Using gulpfile ~/DamvcNodeJSSharing/gulpfile.js
+[04:34:57] Starting 'cleanTask'...
+[04:34:57] Finished 'cleanTask' after 67 ms
+[04:34:57] Starting 'clean'...
+[04:34:57] Finished 'clean' after 21 μs
+[04:34:59] Using gulpfile ~/DamvcNodeJSSharing/gulpfile.js
+[04:34:59] Starting 'browserifyAppTask'...
+[04:34:59] Starting 'browserifyVendorTask'...
+[04:34:59] Starting 'copyStaticTask'...
+[04:34:59] Starting 'lessTask'...
+[04:35:01] Finished 'lessTask' after 2.1 s
+[04:35:03] Finished 'browserifyVendorTask' after 4.59 s
+[04:35:03] Finished 'browserifyAppTask' after 4.77 s
+[04:35:03] Finished 'copyStaticTask' after 4.77 s
+[04:35:03] Starting 'build'...
+[04:35:03] Finished 'build' after 39 μs
+[04:35:03] Starting 'dist'...
+[04:35:03] Finished 'dist' after 3.23 μs
+restify listening at http://[::]:5000
+/root/DamvcNodeJSSharing/node_modules/nodemailer/lib/mailer/index.js:45
+        this.transporter.mailer = this;
+                                ^
+
+TypeError: Cannot set property 'mailer' of undefined
+    at new Mail (/root/DamvcNodeJSSharing/node_modules/nodemailer/lib/mailer/index.js:45:33)
+    at Object.module.exports.createTransport (/root/DamvcNodeJSSharing/node_modules/nodemailer/lib/nodemailer.js:52:14)
+    at /root/DamvcNodeJSSharing/lib/youtransfer.js:83:34
+    at /root/DamvcNodeJSSharing/lib/settings.js:93:4
+    at NodeCache.module.exports.NodeCache.get (/root/DamvcNodeJSSharing/node_modules/node-cache/lib/node_cache.js:101:11)
+    at NodeCache.get (/root/DamvcNodeJSSharing/node_modules/node-cache/lib/node_cache.js:12:59)
+    at Settings.get (/root/DamvcNodeJSSharing/lib/settings.js:65:13)
+    at Object.get (/root/DamvcNodeJSSharing/lib/youtransfer.js:82:18)
+    at /root/DamvcNodeJSSharing/lib/youtransfer.js:284:28
+    at /root/DamvcNodeJSSharing/node_modules/nunjucks/src/environment.js:23:23
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! youtransfer@1.1.0 start: `gulp clean && gulp dist && node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the youtransfer@1.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2020-08-31T04_35_38_822Z-debug.log
